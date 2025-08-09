@@ -30,4 +30,4 @@ print(green_field.text)
 
 
 # Закрыть браузер
-quit()
+driver.quit()
