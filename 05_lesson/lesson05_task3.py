@@ -22,4 +22,4 @@ inpute_field =driver.find_element(By.CSS_SELECTOR, "input")
 inpute_field.send_keys("Pro")
 
 # Закрыть браузер
-quit()
+driver.quit()
