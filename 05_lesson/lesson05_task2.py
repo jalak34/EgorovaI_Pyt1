@@ -13,7 +13,8 @@ driver.get("http://uitestingplayground.com/dynamicid")
 # кликнуть кнопку без ID три раза
 for i in range(3):
     blue_button = driver.find_element(By.CSS_SELECTOR, "button[class='btn btn-primary']")
-    blue_button.click
+    blue_button.click()
 sleep(15)
+
 
 driver.quit()
