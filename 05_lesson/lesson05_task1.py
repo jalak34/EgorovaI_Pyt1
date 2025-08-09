@@ -13,10 +13,11 @@ driver.get("http://uitestingplayground.com/classattr")
 # кликнуть синюю кнопку три раза
 for i in range(3):
     blue_button = driver.find_element(By.CSS_SELECTOR, "button[class='btn class1 btn-primary btn-test']")
-    blue_button.click
+    blue_button.click()
 sleep(15)
 
 
 driver.quit()
+
 
 
